@@ -28,7 +28,9 @@ console.log(wordToGuess)
 style={{fontSize: "2rem", textAlign:"center"}}>Lose Win</div>
 <HangmanDrawing />
 <HangmanWord />
+<div style={{alignSelf: 'stretch'}}>
 <Keyboard/>
+</div>
  </div>
      );
 };
