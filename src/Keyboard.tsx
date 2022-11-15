@@ -38,7 +38,7 @@ function HangmanKeyboard() {
 
     {KEYS.map(key => {
       return (
-        <button className={`${styles.btn} ${styles.active}`}key={key}>{key}</button>
+        <button className={`${styles.btn} ${styles.inactive}`}key={key}>{key}</button>
       )
     })}
     </div>
